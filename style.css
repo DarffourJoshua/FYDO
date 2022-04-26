@@ -1,0 +1,143 @@
+
+@import url("https://fonts.google.com/specimen/Raleway");
+@import url("https://fonts.google.com/specimen/Open+Sans");
+
+* {
+    color: white;
+    font-weight: 400;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    text-align: center;
+    background-image: url("bg-curvy-desktop.svg");
+    background-attachment: fixed;
+    font-family: Open Sans;
+}
+
+a :hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(217, 28%, 15%);
+    margin-top: 1rem;
+}
+
+.text_decoration {
+    text-decoration: none;
+}
+
+.first_div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    background-color: hsl(217, 28%, 15%);
+}
+.button_get-started {
+    height: 3rem;
+    width: 13rem;
+    border-radius: 20px;
+    border: hidden;
+    background-color: hsl(217, 28%, 15%);
+}
+
+input {
+    height: 3rem;
+    width: 23rem;
+    border-radius: 20px;
+    border: hidden;
+}
+
+.second_div_flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: center;
+    align-content: space-between;
+    gap: 20px 80px;
+    margin-top: 10rem;
+}
+.Third_Div {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.child-div {
+    margin-top: 5rem;
+}
+
+.Template_div {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.profile_picture {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 300px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    padding: auto;
+    background-color: hsl(219, 30%, 18%);
+}
+
+.div_indexing {
+    display: inline-block;
+    align-items: center;
+    margin-bottom: -5rem;
+    margin-top: 3rem;
+    padding: 10px;
+    opacity: 0.9;
+    z-index: 3;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    border-radius: 10%;
+    background-color: hsl(219, 30%, 18%);
+    width: 450px;
+}
+
+.footer_pic {
+    display: block;
+}
+.footer {
+    background-color: hsl(216, 53%, 9%);
+    /* margin-top: 15rem; */
+    padding: 5rem;
+}
+.footer_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child_footer_div {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer_picture {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+
+/* @media (min-width: 800px) {
+    /*CSS for wide screens*/
